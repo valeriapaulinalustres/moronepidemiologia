@@ -1,0 +1,63 @@
+.navbar-container{
+  right: 0;
+    width: 200px;
+    position: fixed;
+   
+}
+
+.linksContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+background-color: #00C8BF;
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+   
+    
+    
+}
+
+.menu-layer{
+    background-color:red;
+   position: absolute;
+   z-index: 5;
+   width: 200px;
+   height: 60px;
+}
+
+.x{
+    background-color: #00C8BF;
+    
+ 
+    position: absolute;
+    z-index: 10;
+  
+}
+
+.xButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-links{
+   
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+ 
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  
+    
+
+
+}
