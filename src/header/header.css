@@ -29,7 +29,14 @@
 
 .logo {
     content: url(/public/logoMoron.png);
-    width: 150px;
+    width: 250px;
     margin: 10px;
     align-self: center;
+}
+
+
+@media only screen and (max-width:980px) {
+.logo{
+    width: 150px;
+}
 }

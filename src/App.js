@@ -11,6 +11,9 @@ import Home from './pages/home/Home';
 import HeaderMenu from './header/HeaderMenu';
 import Navbar from './header/Navbar';
 import Header from './header/Header'
+import Dengue from './pages/dengue/Dengue';
+import Hiv from './pages/hiv/Hiv';
+import Footer from './footer/Footer';
 
 const App = () => {
   
@@ -22,10 +25,13 @@ const App = () => {
         
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/dengue" element={<Dengue />} />
+          <Route path="/hiv" element={<Hiv />} />
           <Route path="/sifilis" element={<Sifilis />} />
           <Route path="/tbc" element={<Tbc />} />
           
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
