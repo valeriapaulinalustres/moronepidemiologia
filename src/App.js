@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import  Sifilis  from './pages/sifilis/Sifilis'
-import  Tbc  from './pages/tbc/Tbc'
+import  Sifilis  from './pages/sifilis/Sifilis';
+import  Tbc  from './pages/tbc/Tbc';
+import './app.css'
+
 
 // styles
 //import './style.scss';

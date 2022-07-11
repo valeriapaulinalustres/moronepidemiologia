@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0
+}
+
+:root{
+    --rojo: #DC3545;
+    --verde: #00C8BF;
+    --naranja: #DC7B35;
+    --amarillo: #DCD535;
+    --gris-claro: #F4F5FA;
+    --gris-oscuro: #828282;
+  
+  }
+
+h2{
+    margin: 40px 10px 10px 10px;
+    text-align: center;
+}
+
+h3{
+    margin: 10px;
+    text-align: center;
+  
+}

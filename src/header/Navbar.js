@@ -3,11 +3,6 @@ import { useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import { gsap } from 'gsap';
 import {AiOutlineClose} from 'react-icons/ai';
-import {ImWoman} from 'react-icons/im';
-import {ImHome} from 'react-icons/im';
-import {RiNewspaperLine} from 'react-icons/ri';
-import {FiMail} from 'react-icons/fi';
-import {CgMenuGridR} from 'react-icons/cg'
 import './navbar.css'
 
 
