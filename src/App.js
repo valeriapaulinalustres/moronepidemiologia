@@ -16,6 +16,7 @@ import Header from './header/Header'
 import Dengue from './pages/dengue/Dengue';
 import Hiv from './pages/hiv/Hiv';
 import Footer from './footer/Footer';
+import Upload from './pages/upload/Upload';
 
 const App = () => {
   
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/hiv" element={<Hiv />} />
           <Route path="/sifilis" element={<Sifilis />} />
           <Route path="/tbc" element={<Tbc />} />
+          <Route path="/upload" element={<Upload />} />
           
         </Routes>
         <Footer />

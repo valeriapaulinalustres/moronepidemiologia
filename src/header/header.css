@@ -1,5 +1,5 @@
 .header-container{
-    background-color: #00C8BF;
+    background-color: var(--rojo);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,7 +17,7 @@
 .menubar-buttons{
     border-radius: 50%;
     margin: 5px;
-    background-color: #F4F5FA;
+    background-color: white;
 
 }
 
@@ -28,9 +28,9 @@
 }
 
 .logo {
-    content: url(/public/logoMoron.png);
+    content: url(/public/logoBlanco.png);
     width: 250px;
-    margin: 10px;
+    margin: 20px 10px 20px 30px;
     align-self: center;
 }
 

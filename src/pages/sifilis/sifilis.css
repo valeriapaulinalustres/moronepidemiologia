@@ -3,15 +3,10 @@
     margin: 20px;
 }
 
-.sifilis-charts-container{
-    max-width: 1000px;
-    width: 90%;
-    margin: auto;
-    margin-top: 70px;
-    margin-bottom: 120px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+
+
+.barChart-sifilis{
+    width: 80%;
+    margin: 20px;
+    
 }

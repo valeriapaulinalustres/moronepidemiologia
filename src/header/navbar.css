@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
    
-background-color: #00C8BF;
+background-color: var(--turquesa);
     position: absolute;
     z-index: 3;
     width: 200px;
@@ -20,7 +20,7 @@ background-color: #00C8BF;
 }
 
 .menu-layer{
-    background-color:red;
+   
    position: absolute;
    z-index: 5;
    width: 200px;
@@ -28,7 +28,7 @@ background-color: #00C8BF;
 }
 
 .x{
-    background-color: #00C8BF;
+    background-color: var(--turquesa);
     
  
     position: absolute;
@@ -42,6 +42,7 @@ background-color: #00C8BF;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 

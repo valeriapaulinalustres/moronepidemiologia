@@ -1,4 +1,5 @@
 import React, { useState }  from 'react';
+import { NavLink } from 'react-router-dom';
 import {FaUserMd} from 'react-icons/fa';
 import {FaMoon} from 'react-icons/fa';
 import HeaderMenu from './HeaderMenu';
@@ -11,7 +12,7 @@ function Header() {
 
   return (
     <div className='header-container'>
-       <div className='logo'></div>
+       <NavLink to="/" className='logo'></NavLink>
         
         <div className='menubar-container'>
         <button className='menubar-buttons'><FaMoon className='menubar-icons'/></button>
@@ -26,4 +27,3 @@ function Header() {
 }
 
 export default Header
-

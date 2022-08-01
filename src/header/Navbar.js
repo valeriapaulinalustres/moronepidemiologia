@@ -12,7 +12,7 @@ function Navbar(props) {
 
   //-----------------links hover and navlink style----------------------
   const mouseEnter = ({ currentTarget }) => {
-    gsap.to(currentTarget, { color: "#DCD535" });
+    gsap.to(currentTarget, { color: "#000000" });
   };
   const mouseLeave = ({ currentTarget }) => {
     gsap.to(currentTarget, { color: "#ffffff" });
@@ -21,8 +21,8 @@ function Navbar(props) {
   const styleLinks = ({ isActive }) =>
     isActive
       ? {
-        color: '#DCD535',
-        background: '#DC3545',
+        color: '#ffffff',
+        background: '#C8102D',
         paddingLeft: 6,
         paddingRight: 6,
       }
@@ -49,7 +49,7 @@ function Navbar(props) {
 
       },
       {
-        duration: 0.75,
+        duration: 0.5,
         y: 50,
         ease: 'power3.inOut',
         stagger: 0.3,
@@ -70,10 +70,10 @@ function Navbar(props) {
 
       },
       {
-        duration: 0.75,
+        duration: 0.5,
         
         ease: 'power3.inOut',
-        stagger: 0.3,
+        stagger: 0.1,
         opacity: 1
         // {
         // amount: 2
@@ -101,6 +101,7 @@ function Navbar(props) {
           <NavLink to="/sifilis" className="nav-links" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={styleLinks} onClick={() => setMenu(false)}>Sífilis</NavLink>
           <NavLink to="/tbc" className="nav-links" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={styleLinks} onClick={() => setMenu(false)}>TBC</NavLink>
           <NavLink to="/hiv" className="nav-links" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={styleLinks} onClick={() => setMenu(false)}>HIV</NavLink>
+          <NavLink to="/upload" className="nav-links" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={styleLinks} onClick={() => setMenu(false)}>Upload</NavLink>
         </nav>
     </div>
   )

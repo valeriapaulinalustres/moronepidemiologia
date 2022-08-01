@@ -7,7 +7,7 @@ function Footer() {
 
     //-----------------links hover and navlink style----------------------
   const mouseEnter = ({ currentTarget }) => {
-    gsap.to(currentTarget, { color: "#DC3545" });
+    gsap.to(currentTarget, { color: "#000000" });
   };
   const mouseLeave = ({ currentTarget }) => {
     gsap.to(currentTarget, { color: "#ffffff" });
@@ -16,8 +16,8 @@ function Footer() {
   const styleLinks = ({ isActive }) =>
     isActive
       ? {
-        color: '#DCD535',
-        background: '#00C8BF',
+        color: '#ffffff',
+        background: '#C8102D',
         borderRadius: 8,
         paddingLeft: 6,
         paddingRight: 6,
@@ -38,6 +38,7 @@ function Footer() {
           <NavLink to="/sifilis" className="nav-linksFooter" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={styleLinks} >Sífilis</NavLink>
           <NavLink to="/tbc" className="nav-linksFooter" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={styleLinks} >TBC</NavLink>
           <NavLink to="/hiv" className="nav-linksFooter" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={styleLinks} >HIV</NavLink>
+          <NavLink to="/upload" className="nav-linksFooter" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} style={styleLinks} >Upload</NavLink>
         </nav>
     </div>
 
